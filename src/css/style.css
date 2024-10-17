@@ -1,0 +1,88 @@
+@media screen and (width >=320px) {
+	#some-id {
+		color: red;
+	}
+}
+
+@media screen and (width >=500px) {
+	#some-id {
+		color: red;
+	}
+}
+
+
+.navbar-item {
+	box-sizing: border-box;
+	margin: 10px;
+	outline: 1px solid black;
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.nav-box ul {
+	align-items: center;
+	list-style-type: none;
+	padding-left: 0;
+
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+	height: auto;
+	width: auto;
+	flex-wrap: wrap;
+
+}
+
+.equipment-item {
+	box-sizing: border-box;
+	margin: 10px;
+	outline: 1px solid black;
+	display: inline-block;
+}
+
+.Macro-Item {
+	box-sizing: border-box;
+	display: inline-block;
+	flex-wrap: wrap;
+	margin: 5px;
+}
+
+.Macros ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.What-is ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.What-is-item {
+	Margin: 10px;
+}
+
+.Company,
+.Company-item {
+	display: inline-flex;
+	justify-items: middle;
+	vertical-align: middle;
+
+
+}
+
+.Company-header:target-within {
+	display: inline-flex;
+	justify-content: left;
+
+}
